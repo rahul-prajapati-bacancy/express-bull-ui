@@ -10,6 +10,7 @@ const PORT = 3002;
 
 const queueConnectionOpts = {
   redis: {
+    // For demo purpose below value is hardcoded, please keep it in .env file for best practice
     host: "localhost",
     port: 6379,
     connectTimeout: 30000,
